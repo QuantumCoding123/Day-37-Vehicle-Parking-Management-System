@@ -1,0 +1,115 @@
+body {
+  background-color: #E2E8F3;
+  font-size: .8em;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  
+}
+
+ul li {
+  list-style-type: none;
+}
+img {
+  cursor: pointer;
+  width: 200px;
+}
+
+.container {
+  height: 200%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.parking-rules {
+  padding: 0;
+}
+.parking-rules  > .parking-rule {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #FDFEFE;
+  padding: 16px;
+  margin: 12px;
+}
+.parking-rule:nth-child(n) {
+  border: 2px solid #538cff;
+}
+.parking-rule:nth-child(2n) {
+  border: 2px solid #d51c00;
+}
+.parking-rule:nth-child(3n) {
+  border: 2px solid #ffd92e;
+}
+.parking-rule ul {
+  padding: 0;
+}
+.parking-rule li:first-child {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.drop-zone {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  background: #878787;
+  color: white;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.drop-zone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@import url("<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap rel=stylesheet>);
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+#changingText {
+  color: #ffd166;
+  border-right: 1px solid black;
+  animation: cursoranim 1s linear infinite;
+}
+
+@keyframes cursoranim {
+  50% {
+    border-right: 1px solid rgba(0, 0, 0, 0);
+  }
+}
+
+/*body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}*/
+
+p {
+  position: relative;
+  font-family: sans-serif;
+  text-transform:;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}

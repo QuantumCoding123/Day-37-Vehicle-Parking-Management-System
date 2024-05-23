@@ -1,0 +1,256 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+    border:0
+}
+
+.main {
+    background: #9D0441;
+}
+
+.form-container {
+  /*background-image: url("Image/Copy of Untitled.png");*/
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0%;
+}
+
+.form-container h2{
+    padding: 4% 0 3% 0;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+.form-container label{
+    font-weight: bold;
+}
+
+.asteriskField{
+    color: red;
+}
+
+#btnOne{
+    color:white;
+    
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+}
+
+
+
+.tab-info{
+   /*background-image: url("Image/table.png");*/
+    width: 100%;
+}
+
+.tab-info h2{
+    font-weight: bold;
+    padding-top: 2%;
+    font-family: 'Lobster', cursive;
+}
+
+.table-container {
+    padding-top: 6%;
+    width: 100%;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: transparent;
+    margin: 0;
+}
+
+#tableHead{
+    background-color:#9D0441;
+    color: white;
+}
+
+#searchInput{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #ced4da;
+}
+#searchInput:hover,#searchInput:focus{
+    box-shadow: none;
+    outline:none;
+}
+
+.work img{
+    width: 100%;
+}
+
+
+
+/*  Footer css */
+.element-btn .element-fill-btn {
+    background-color: #ff6600;
+    border: 0;
+    color: #fff;
+    padding: 13px 5px;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    width: 252px;
+    margin: 0 auto;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 50px -10px rgba(255, 10, 120, 1);
+   
+}
+
+
+.fill-btn {
+    background-color: #ff6600;
+    border: 0;
+    color: #fff;
+    padding: 13px 5px;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    width: 252px;
+    margin: 0 auto;
+    border-radius: 25px;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+   
+}
+.fill-btn:hover,
+.element-btn .element-fill-btn:hover {
+    background-color: #201f1f;
+    box-shadow: 0px 10px 50px -10px rgb(32, 31, 31);
+}
+
+
+.footer {
+    position: relative;
+    background-color: #201f1f;
+    padding:50px 0px;
+}
+
+.footerBg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.13;
+    background: url('http://placehold.it/1920x677') no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.form-Box input[type="text"],
+.form-Box input[type="email"],
+.form-Box input[type="passowrd"],
+.form-Box textarea {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #737373;
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #737373;
+    font-style: italic;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+.form-Box textarea {
+    height: 113px;
+    padding: 15px 25px;
+    resize: none;
+}
+.form-Box .b_effect:focus,
+.subscribe form input:focus {
+    border-color: #ff6600;
+}
+
+.form-Box .fill-btn {
+    position: static;
+    transform: translate(0%, 0);
+    -webkit-transform: translate(0%, 0);
+    -moz-transform: translate(0%, 0);
+    -ms-transform: translate(0%, 0);
+    width: 184px;
+}
+
+.form-Box .fill-btn:hover,
+.subscribe form .fill-btn:hover {
+    background-color: #ffe402;
+    color: #201f1f;
+    box-shadow: 0px 10px 50px -10px rgb(255, 228, 2);
+}
+
+.fTitle {
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.fTitle span {
+    color: #ff6600;
+}
+
+.contact-address ul li,
+.contact-address ul li a {
+    color: #737373;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+    line-height: 32px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+.contact-address {
+    padding: 0 15%;
+}
+
+.contact-address ul li i {
+    margin-right: 15px;
+    display: inline-block;
+    float: left;
+    line-height: 32px;
+}
+
+.contact-address ul li span {
+    display: table;
+}
+
+.contact-address ul li a:hover {
+    color: #ff6600;
+}
+
+
+
+
+
+
+
+
+
+
